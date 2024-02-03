@@ -2,7 +2,7 @@ import os
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
-from file_helper import get_all_files, is_file
+from file_helper import get_all_files, is_file, is_dir, make_folder
 from image_normalization import divide_image, normalize_image
 from ml import generate_model
 from ui_helper import UIHelper
@@ -16,6 +16,9 @@ classes = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n",
            "w", "x", "y", "z"]
 
 model = tf.keras.models.load_model('model.myLetters')
+
+if not is_dir("./temp"):
+    make_folder("./temp")
 
 
 def predict():

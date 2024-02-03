@@ -34,7 +34,7 @@ def generate_model():
     model.compile(optimizer='adam', loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
                   metrics=['accuracy'])
 
-    model.fit(train_images, train_labels, epochs=35)
+    model.fit(train_images, train_labels, epochs=20)
     test_loss, test_acc = model.evaluate(test_images, test_labels, verbose=2)
     model.save('model.myLetters')
 

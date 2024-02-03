@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c66712ea-40fd-40fb-a5eb-7bb4632a1583" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_helper/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_helper/file_helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image_normalization/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image_normalization/normalizeImageUtils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/litery/adam.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml/generateModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui_helper/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui_helper/ui_helper.py" afterDir="false" />
+    <list default="true" id="c66712ea-40fd-40fb-a5eb-7bb4632a1583" name="Changes" comment="git: init from local">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,8 +101,17 @@
       <workItem from="1706730350243" duration="7408000" />
       <workItem from="1706815326147" duration="14491000" />
       <workItem from="1706910802201" duration="12538000" />
-      <workItem from="1706978620395" duration="6332000" />
+      <workItem from="1706978620395" duration="7864000" />
     </task>
+    <task id="LOCAL-00001" summary="git: init from local">
+      <option name="closed" value="true" />
+      <created>1706985634832</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706985634832</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +142,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="git: init from local" />
+    <option name="LAST_COMMIT_MESSAGE" value="git: init from local" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonProject1$main.coverage" NAME="main Coverage Results" MODIFIED="1706984922409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

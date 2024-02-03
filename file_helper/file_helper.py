@@ -29,3 +29,12 @@ def get_all_files(folder_path):
 
 def is_file(path):
     return os.path.isfile(path)
+
+
+def is_dir(path):
+    return os.path.isdir(path)
+
+
+def make_folder(folder_path):
+    if not os.path.exists(folder_path):
+        os.mkdir(folder_path)

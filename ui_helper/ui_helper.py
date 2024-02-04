@@ -93,4 +93,4 @@ class UIHelper:
     def create_add_image_button(self, parent):
         button = Button(parent, width=parent.winfo_width() // 2, text="Analizuj obrazek",
                         command=self.print_results, font=("Inter", 24), bg="#73FC9A", padx=20, pady=10, relief=tk.GROOVE, borderwidth=2)
-        button.pack(side="top", pady=(320,0), padx=(0,70), fill="none")
+        button.pack(side="top", pady=(420,0), padx=(0,70), fill="none")

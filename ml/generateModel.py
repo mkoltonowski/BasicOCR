@@ -1,6 +1,7 @@
 import tensorflow as tf
 import matplotlib.pyplot as plt
 import emnist
+from keras.src.activations import sigmoid, relu
 
 
 def generate_model():
@@ -25,10 +26,10 @@ def generate_model():
     test_images = test_images / 255.0
 
     model.add(tf.keras.layers.Flatten(input_shape=(28, 28)))
-    model.add(tf.keras.layers.Dense(256, activation="relu"))
-    model.add(tf.keras.layers.Dense(128, activation="relu"))
-    model.add(tf.keras.layers.Dense(64, activation="relu"))
-    model.add(tf.keras.layers.Dropout(0.04))
+    model.add(tf.keras.layers.Dense(128, activation=relu))
+    model.add(tf.keras.layers.Dense(64, activation=relu))
+    model.add(tf.keras.layers.Dense(64, activation=sigmoid))
+    model.add(tf.keras.layers.Dropout(0.02))
     model.add(tf.keras.layers.Dense(27))
 
     model.compile(optimizer='adam', loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
